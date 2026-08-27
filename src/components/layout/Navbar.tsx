@@ -64,7 +64,7 @@ export function Navbar() {
     : 'U';
 
   return (
-    <header className="sticky top-0 z-50 border-b border-border bg-background/95 backdrop-blur-md supports-[backdrop-filter]:bg-background/80">
+    <header className="fixed top-0 left-0 right-0 w-full z-50 border-b border-border bg-background/95 backdrop-blur-md supports-[backdrop-filter]:bg-background/80">
       <div className="mx-auto max-w-screen-2xl px-4 lg:px-6">
         <div className="flex h-16 items-center justify-between gap-4">
 
@@ -80,7 +80,7 @@ export function Navbar() {
               to="/"
               className="flex items-center gap-2 font-bold text-xl tracking-tight text-foreground hover:text-primary transition-colors"
             >
-              <img src="/logo.png" alt="React Commerce" className="h-10 w-10 object-contain" />
+              <img src="/logo.png" alt="React Commerce" className="h-10 w-10 rounded-full object-cover" />
               <span className="hidden sm:block">{SITE_NAME}</span>
             </Link>
 

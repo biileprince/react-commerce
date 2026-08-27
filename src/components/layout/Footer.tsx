@@ -37,7 +37,7 @@ export function Footer() {
           {/* Brand column */}
           <div className="lg:col-span-2">
             <Link to="/" className="flex items-center gap-2 font-bold text-xl mb-4">
-              <img src="/logo.png" alt="React Commerce" className="h-10 w-10 object-contain" />
+              <img src="/logo.png" alt="React Commerce" className="h-10 w-10 rounded-full object-cover" />
               <span>{SITE_NAME}</span>
             </Link>
             <p className="text-sm text-muted-foreground max-w-xs leading-relaxed">
