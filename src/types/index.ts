@@ -1,15 +1,12 @@
-// ============================================================
-// Shared TypeScript Types — structured for easy backend swap
-// Replace mock API calls with real HTTP calls without changing
-// any component code — just update src/services/api.ts
-// ============================================================
+
+import type { ReactNode } from 'react';
 
 export interface Category {
   id: string;
   name: string;
   slug: string;
   description: string;
-  icon: string; // emoji or icon name
+  icon: ReactNode;
   productCount?: number;
   isActive: boolean;
 }
@@ -99,9 +96,6 @@ export interface Order {
   createdAt: string;
 }
 
-// ============================================================
-// API Response wrapper — mirrors what a real backend returns
-// ============================================================
 export interface ApiResponse<T> {
   success: boolean;
   data?: T;
@@ -109,9 +103,6 @@ export interface ApiResponse<T> {
   message?: string;
 }
 
-// ============================================================
-// Form types (used with React Hook Form + Zod)
-// ============================================================
 export interface LoginFormValues {
   email: string;
   password: string;

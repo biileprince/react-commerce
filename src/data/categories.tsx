@@ -1,4 +1,5 @@
 import type { Category } from '@/types';
+import { FiSmartphone, FiShoppingBag, FiHome, FiHeart, FiActivity, FiSmile } from 'react-icons/fi';
 
 export const CATEGORIES: Category[] = [
   {
@@ -6,7 +7,7 @@ export const CATEGORIES: Category[] = [
     name: 'Electronics',
     slug: 'electronics',
     description: 'Phones, laptops, TVs, and electronic accessories',
-    icon: '📱',
+    icon: <FiSmartphone className="text-xl" />,
     productCount: 8,
     isActive: true,
   },
@@ -15,7 +16,7 @@ export const CATEGORIES: Category[] = [
     name: 'Fashion',
     slug: 'fashion',
     description: 'Clothing, shoes, bags, and fashion accessories',
-    icon: '👗',
+    icon: <FiShoppingBag className="text-xl" />,
     productCount: 5,
     isActive: true,
   },
@@ -24,7 +25,7 @@ export const CATEGORIES: Category[] = [
     name: 'Home & Living',
     slug: 'home',
     description: 'Furniture, home decor, kitchen, and appliances',
-    icon: '🏠',
+    icon: <FiHome className="text-xl" />,
     productCount: 4,
     isActive: true,
   },
@@ -33,7 +34,7 @@ export const CATEGORIES: Category[] = [
     name: 'Beauty & Health',
     slug: 'beauty',
     description: 'Skincare, makeup, fragrances, and health products',
-    icon: '💄',
+    icon: <FiHeart className="text-xl" />,
     productCount: 4,
     isActive: true,
   },
@@ -42,7 +43,7 @@ export const CATEGORIES: Category[] = [
     name: 'Sports & Outdoors',
     slug: 'sports',
     description: 'Sporting equipment, fitness gear, and outdoor activities',
-    icon: '⚽',
+    icon: <FiActivity className="text-xl" />,
     productCount: 3,
     isActive: true,
   },
@@ -51,7 +52,7 @@ export const CATEGORIES: Category[] = [
     name: 'Toys & Games',
     slug: 'toys',
     description: 'Toys, games, and entertainment for kids',
-    icon: '🎮',
+    icon: <FiSmile className="text-xl" />,
     productCount: 2,
     isActive: true,
   },
