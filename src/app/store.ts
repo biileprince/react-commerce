@@ -1,4 +1,4 @@
-import { configureStore } from '@reduxjs/toolkit';
+import { configureStore, combineReducers } from '@reduxjs/toolkit';
 import cartReducer from '@/features/cart/cartSlice';
 import authReducer from '@/features/auth/authSlice';
 import wishlistReducer from '@/features/wishlist/wishlistSlice';
@@ -31,14 +31,16 @@ function saveState(state: RootState) {
 
 const preloadedState = loadState();
 
+const rootReducer = combineReducers({
+  cart: cartReducer,
+  auth: authReducer,
+  wishlist: wishlistReducer,
+  ui: uiReducer,
+});
+
 export const store = configureStore({
-  reducer: {
-    cart: cartReducer,
-    auth: authReducer,
-    wishlist: wishlistReducer,
-    ui: uiReducer,
-  },
-  preloadedState,
+  reducer: rootReducer,
+  preloadedState: preloadedState as any,
 });
 
 // Subscribe to store changes and persist
