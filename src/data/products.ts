@@ -1,7 +1,7 @@
 import type { Product } from '@/types';
 
 export const PRODUCTS: Product[] = [
-  // ==================== ELECTRONICS ====================
+
   {
     id: 'prod-1',
     name: 'Wireless Bluetooth Headphones',
@@ -168,7 +168,7 @@ export const PRODUCTS: Product[] = [
     createdAt: '2024-03-15T08:00:00Z',
   },
 
-  // ==================== FASHION ====================
+
   {
     id: 'prod-9',
     name: 'Laptop Backpack — Water Resistant',
@@ -251,7 +251,7 @@ export const PRODUCTS: Product[] = [
     createdAt: '2024-03-05T08:00:00Z',
   },
 
-  // ==================== HOME & LIVING ====================
+
   {
     id: 'prod-13',
     name: 'Ceramic Pour-Over Coffee Set',
@@ -333,7 +333,7 @@ export const PRODUCTS: Product[] = [
     createdAt: '2024-03-08T08:00:00Z',
   },
 
-  // ==================== BEAUTY & HEALTH ====================
+
   {
     id: 'prod-17',
     name: 'Vitamin C Brightening Serum',
@@ -395,7 +395,7 @@ export const PRODUCTS: Product[] = [
     createdAt: '2024-02-22T08:00:00Z',
   },
 
-  // ==================== SPORTS & OUTDOORS ====================
+
   {
     id: 'prod-20',
     name: 'Adjustable Dumbbell Set',
@@ -457,7 +457,7 @@ export const PRODUCTS: Product[] = [
     createdAt: '2024-03-12T08:00:00Z',
   },
 
-  // ==================== TOYS & GAMES ====================
+
   {
     id: 'prod-23',
     name: 'STEM Robot Building Kit',
