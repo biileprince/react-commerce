@@ -17,6 +17,25 @@ interface AuthFormProps {
   defaultTab?: 'login' | 'register';
 }
 
+const FormField = ({
+  label,
+  error,
+  children,
+  hint,
+}: {
+  label: string;
+  error?: string;
+  children: React.ReactNode;
+  hint?: string;
+}) => (
+  <div className="space-y-1.5">
+    <Label className="text-sm font-medium">{label}</Label>
+    {children}
+    {hint && !error && <p className="text-xs text-muted-foreground">{hint}</p>}
+    {error && <p className="text-xs text-destructive">{error}</p>}
+  </div>
+);
+
 export function AuthForm({ onSuccess, defaultTab = 'login' }: AuthFormProps) {
   const dispatch = useAppDispatch();
   const isLoading = useAppSelector(selectAuthLoading);
@@ -60,25 +79,6 @@ export function AuthForm({ onSuccess, defaultTab = 'login' }: AuthFormProps) {
       toast.error(result.error ?? 'Registration failed');
     }
   };
-
-  const FormField = ({
-    label,
-    error,
-    children,
-    hint,
-  }: {
-    label: string;
-    error?: string;
-    children: React.ReactNode;
-    hint?: string;
-  }) => (
-    <div className="space-y-1.5">
-      <Label className="text-sm font-medium">{label}</Label>
-      {children}
-      {hint && !error && <p className="text-xs text-muted-foreground">{hint}</p>}
-      {error && <p className="text-xs text-destructive">{error}</p>}
-    </div>
-  );
 
   return (
     <Tabs defaultValue={defaultTab} className="w-full">
