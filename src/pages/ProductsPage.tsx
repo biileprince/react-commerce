@@ -1,6 +1,6 @@
 import { useState, useMemo, useEffect } from 'react';
 import { useSearchParams, Link } from 'react-router-dom';
-import { SlidersHorizontal, X, ChevronDown, ArrowUpDown } from 'lucide-react';
+import { SlidersHorizontal, X, ChevronDown, ArrowUpDown, ChevronLeft, ChevronRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Input } from '@/components/ui/input';
 import { Badge } from '@/components/ui/badge';
@@ -55,6 +55,7 @@ export function ProductsPage() {
   const [maxPrice, setMaxPrice] = useState('');
   const [sort, setSort] = useState<SortOption>('newest');
   const [filterOpen, setFilterOpen] = useState(false);
+  const [currentPage, setCurrentPage] = useState(1);
 
   const debouncedSearch = useDebounce(searchInput, 400);
 
@@ -62,6 +63,11 @@ export function ProductsPage() {
   useEffect(() => {
     setSearchInput(searchParam);
   }, [searchParam]);
+
+  // Reset to first page when filters change
+  useEffect(() => {
+    setCurrentPage(1);
+  }, [debouncedSearch, categoryParam, minPrice, maxPrice, sort]);
 
   const filteredProducts = useMemo(() => {
     let products = debouncedSearch
@@ -76,6 +82,12 @@ export function ProductsPage() {
 
     return sortProducts(products, sort);
   }, [debouncedSearch, categoryParam, minPrice, maxPrice, sort]);
+
+  const totalPages = Math.ceil(filteredProducts.length / ITEMS_PER_PAGE);
+  const paginatedProducts = useMemo(() => {
+    const startIndex = (currentPage - 1) * ITEMS_PER_PAGE;
+    return filteredProducts.slice(startIndex, startIndex + ITEMS_PER_PAGE);
+  }, [filteredProducts, currentPage]);
 
   const selectedCategory = CATEGORIES.find((c) => c.slug === categoryParam);
   const activeFiltersCount = [categoryParam, minPrice, maxPrice].filter(Boolean).length;
@@ -274,8 +286,35 @@ export function ProductsPage() {
         </aside>
 
         {/* Product grid */}
-        <div className="flex-1 min-w-0">
-          <ProductGrid products={filteredProducts} />
+        <div className="flex-1 min-w-0 flex flex-col">
+          <ProductGrid products={paginatedProducts} />
+          
+          {/* Pagination Controls */}
+          {totalPages > 1 && (
+            <div className="mt-8 mb-4 flex items-center justify-center gap-2">
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setCurrentPage(p => Math.max(1, p - 1))}
+                disabled={currentPage === 1}
+              >
+                <ChevronLeft className="h-4 w-4 mr-1" />
+                Previous
+              </Button>
+              <span className="text-sm text-muted-foreground px-4">
+                Page {currentPage} of {totalPages}
+              </span>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={() => setCurrentPage(p => Math.min(totalPages, p + 1))}
+                disabled={currentPage === totalPages}
+              >
+                Next
+                <ChevronRight className="h-4 w-4 ml-1" />
+              </Button>
+            </div>
+          )}
         </div>
       </div>
     </div>

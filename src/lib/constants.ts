@@ -16,4 +16,4 @@ export const MENU_ITEMS = [
   { title: 'Home & Living', path: '/products?category=home' },
 ];
 
-export const ITEMS_PER_PAGE = 12;
+export const ITEMS_PER_PAGE = 20;
