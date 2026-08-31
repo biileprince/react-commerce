@@ -2,9 +2,9 @@ import { Link } from 'react-router-dom';
 import { Heart, ShoppingBag } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { ProductCard } from '@/components/product/ProductCard';
-import { useAppSelector } from '@/app/hooks';
-import { selectWishlistItems } from '@/features/wishlist/wishlistSlice';
-import { PRODUCTS } from '@/data/products';
+import { useAppSelector } from '@/store/hooks';
+import { selectWishlistItems } from '@/store/slices/wishlist/wishlistSlice';
+import { PRODUCTS } from '@/lib/productHelpers';
 import { SITE_NAME } from '@/lib/constants';
 
 export function WishlistPage() {

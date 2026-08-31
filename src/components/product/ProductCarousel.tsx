@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { PRODUCTS } from '@/data/products';
+import { PRODUCTS } from '@/lib/productHelpers';
 import { CURRENCY_SYMBOL } from '@/lib/constants';
 import { Star } from 'lucide-react';
 import { cn } from '@/lib/utils';

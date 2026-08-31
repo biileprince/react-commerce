@@ -1,6 +1,6 @@
 import { useEffect } from 'react';
-import { useAppSelector } from '@/app/hooks';
-import { selectTheme } from '@/features/ui/uiSlice';
+import { useAppSelector } from '@/store/hooks';
+import { selectTheme } from '@/store/slices/ui/uiSlice';
 
 export function ThemeProvider({ children }: { children: React.ReactNode }) {
   const theme = useAppSelector(selectTheme);

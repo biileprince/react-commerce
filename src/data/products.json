@@ -1,0 +1,464 @@
+[
+  {
+    "id": "prod-1",
+    "name": "Wireless Bluetooth Headphones",
+    "slug": "wireless-bluetooth-headphones",
+    "description": "Premium wireless headphones with active noise cancellation, 30-hour battery life, and crystal-clear audio. Perfect for music lovers and remote workers alike. Features touch controls, built-in microphone, and foldable design for easy portability.",
+    "price": 450,
+    "currency": "GHS",
+    "stockQuantity": 50,
+    "categorySlug": "electronics",
+    "categoryName": "Electronics",
+    "images": [
+      "https://images.unsplash.com/photo-1505740420928-5e560c06d30e?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1546435770-a3e426bf472b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 234,
+    "isFeatured": true,
+    "tags": ["headphones", "wireless", "noise-cancelling", "bluetooth"],
+    "createdAt": "2024-01-15T08:00:00Z"
+  },
+  {
+    "id": "prod-2",
+    "name": "Smart Fitness Watch",
+    "slug": "smart-fitness-watch",
+    "description": "Advanced smartwatch with continuous heart rate tracking, built-in GPS, sleep analysis, and 7-day battery life. Compatible with iOS and Android. Water-resistant up to 50 meters. Tracks 100+ workout modes.",
+    "price": 350,
+    "currency": "GHS",
+    "stockQuantity": 30,
+    "categorySlug": "electronics",
+    "categoryName": "Electronics",
+    "images": [
+      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1579586337278-3befd40fd17a?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 189,
+    "isFeatured": true,
+    "tags": ["smartwatch", "fitness", "GPS", "health"],
+    "createdAt": "2024-01-20T08:00:00Z"
+  },
+  {
+    "id": "prod-3",
+    "name": "Portable Power Bank 20000mAh",
+    "slug": "portable-power-bank-20000mah",
+    "description": "High-capacity power bank with fast charging technology (22.5W), dual USB-A ports, and USB-C PD port. LED battery indicator. Charges your phone up to 5 times on a single charge. Airline-approved.",
+    "price": 120,
+    "currency": "GHS",
+    "stockQuantity": 100,
+    "categorySlug": "electronics",
+    "categoryName": "Electronics",
+    "images": [
+      "https://images.unsplash.com/photo-1609091839311-d5365f9ff1c5?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1583863788434-e58a36330cf0?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.5,
+    "reviewCount": 312,
+    "isFeatured": false,
+    "tags": ["power-bank", "charging", "portable"],
+    "createdAt": "2024-02-01T08:00:00Z"
+  },
+  {
+    "id": "prod-4",
+    "name": "Wireless Gaming Mouse",
+    "slug": "wireless-gaming-mouse",
+    "description": "High-precision wireless gaming mouse with 25,600 DPI optical sensor, 70-hour battery life, 6 programmable buttons, and customizable RGB lighting. Ultra-lightweight at 95g for competitive gaming.",
+    "price": 180,
+    "currency": "GHS",
+    "stockQuantity": 40,
+    "categorySlug": "electronics",
+    "categoryName": "Electronics",
+    "images": [
+      "https://images.unsplash.com/photo-1615663245857-ac93bb7c39e7?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1629429407756-01cd3d7cfb38?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 156,
+    "isFeatured": false,
+    "tags": ["gaming", "mouse", "wireless", "RGB"],
+    "createdAt": "2024-02-10T08:00:00Z"
+  },
+  {
+    "id": "prod-5",
+    "name": "USB-C Hub 7-in-1",
+    "slug": "usb-c-hub-7-in-1",
+    "description": "Versatile USB-C hub expanding your laptop connectivity with HDMI 4K output, 3x USB 3.0 ports, SD & microSD card readers, and 100W Power Delivery passthrough. Plug-and-play, no drivers needed.",
+    "price": 135,
+    "currency": "GHS",
+    "stockQuantity": 60,
+    "categorySlug": "electronics",
+    "categoryName": "Electronics",
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.4,
+    "reviewCount": 98,
+    "isFeatured": false,
+    "tags": ["USB-C", "hub", "adapter", "laptop"],
+    "createdAt": "2024-02-15T08:00:00Z"
+  },
+  {
+    "id": "prod-6",
+    "name": "Mechanical Keyboard RGB",
+    "slug": "mechanical-keyboard-rgb",
+    "description": "Tactile mechanical keyboard with Cherry MX Brown switches, full RGB per-key backlighting, aluminum top frame, and N-key rollover. Compact tenkeyless design saves desk space without sacrificing function.",
+    "price": 280,
+    "currency": "GHS",
+    "stockQuantity": 25,
+    "categorySlug": "electronics",
+    "categoryName": "Electronics",
+    "images": [
+      "https://images.unsplash.com/photo-1587829741301-dc798b83add3?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1541140532154-b024d705b90a?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 445,
+    "isFeatured": true,
+    "tags": ["keyboard", "mechanical", "RGB", "gaming"],
+    "createdAt": "2024-03-01T08:00:00Z"
+  },
+  {
+    "id": "prod-7",
+    "name": "True Wireless Earbuds Pro",
+    "slug": "true-wireless-earbuds-pro",
+    "description": "Premium true wireless earbuds with active noise cancellation, 28-hour total battery (7h + 21h case), IPX5 water resistance, multipoint connection, and custom-tuned 10mm drivers for exceptional bass.",
+    "price": 320,
+    "currency": "GHS",
+    "stockQuantity": 45,
+    "categorySlug": "electronics",
+    "categoryName": "Electronics",
+    "images": [
+      "https://images.unsplash.com/photo-1590658268037-6bf12165a8df?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 278,
+    "isFeatured": false,
+    "tags": ["earbuds", "wireless", "ANC", "audio"],
+    "createdAt": "2024-03-10T08:00:00Z"
+  },
+  {
+    "id": "prod-8",
+    "name": "4K Action Camera",
+    "slug": "4k-action-camera",
+    "description": "Rugged 4K/60fps action camera with electronic image stabilization, 170° wide angle, waterproof to 30m without housing, voice control, and built-in Wi-Fi. Includes 2 rechargeable batteries.",
+    "price": 650,
+    "currency": "GHS",
+    "stockQuantity": 15,
+    "categorySlug": "electronics",
+    "categoryName": "Electronics",
+    "images": [
+      "https://images.unsplash.com/photo-1502920917128-1aa500764cbd?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 134,
+    "isFeatured": true,
+    "tags": ["camera", "4K", "action", "waterproof"],
+    "createdAt": "2024-03-15T08:00:00Z"
+  },
+  {
+    "id": "prod-9",
+    "name": "Laptop Backpack — Water Resistant",
+    "slug": "laptop-backpack-water-resistant",
+    "description": "Durable 30L backpack with dedicated padded laptop compartment (fits up to 17\"), multiple organization pockets, USB charging port, ergonomic air-mesh back panel, and water-resistant 900D polyester exterior.",
+    "price": 260,
+    "currency": "GHS",
+    "stockQuantity": 75,
+    "categorySlug": "fashion",
+    "categoryName": "Fashion",
+    "images": [
+      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?auto=format&fit=crop&w=1200&q=80",
+      "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.5,
+    "reviewCount": 203,
+    "isFeatured": false,
+    "tags": ["backpack", "laptop", "travel", "bag"],
+    "createdAt": "2024-01-25T08:00:00Z"
+  },
+  {
+    "id": "prod-10",
+    "name": "Slim Fit Chino Trousers",
+    "slug": "slim-fit-chino-trousers",
+    "description": "Classic slim-fit chinos crafted from stretch cotton blend for all-day comfort. Available in multiple colors. Features a clean flat-front, hidden button fly, and finished with two front slant pockets and two back welt pockets.",
+    "price": 195,
+    "currency": "GHS",
+    "stockQuantity": 80,
+    "categorySlug": "fashion",
+    "categoryName": "Fashion",
+    "images": [
+      "https://images.unsplash.com/photo-1624378439575-d8705ad7ae80?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.3,
+    "reviewCount": 167,
+    "isFeatured": false,
+    "tags": ["chinos", "trousers", "slim-fit", "men"],
+    "createdAt": "2024-02-05T08:00:00Z"
+  },
+  {
+    "id": "prod-11",
+    "name": "Leather Crossbody Bag",
+    "slug": "leather-crossbody-bag",
+    "description": "Genuine full-grain leather crossbody bag with adjustable strap, gold-tone hardware, and suede lining. Compact yet spacious with a main zip compartment, front slip pocket, and card slots. A timeless everyday carry.",
+    "price": 380,
+    "currency": "GHS",
+    "stockQuantity": 35,
+    "categorySlug": "fashion",
+    "categoryName": "Fashion",
+    "images": [
+      "https://images.unsplash.com/photo-1548036328-c9fa89d128fa?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 92,
+    "isFeatured": true,
+    "tags": ["bag", "leather", "crossbody", "women"],
+    "createdAt": "2024-02-20T08:00:00Z"
+  },
+  {
+    "id": "prod-12",
+    "name": "Classic White Sneakers",
+    "slug": "classic-white-sneakers",
+    "description": "Iconic minimalist white canvas sneakers with vulcanized rubber sole and cushioned insole. Unisex design that pairs effortlessly with any outfit. Breathable fabric upper and padded ankle collar for lasting comfort.",
+    "price": 220,
+    "currency": "GHS",
+    "stockQuantity": 60,
+    "categorySlug": "fashion",
+    "categoryName": "Fashion",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 328,
+    "isFeatured": false,
+    "tags": ["sneakers", "shoes", "white", "unisex"],
+    "createdAt": "2024-03-05T08:00:00Z"
+  },
+  {
+    "id": "prod-13",
+    "name": "Ceramic Pour-Over Coffee Set",
+    "slug": "ceramic-pour-over-coffee-set",
+    "description": "Handcrafted ceramic pour-over coffee dripper with matching carafe and two mugs. Designed for the perfect manual brew. Includes reusable stainless steel filter. Gift-boxed and dishwasher safe.",
+    "price": 175,
+    "currency": "GHS",
+    "stockQuantity": 40,
+    "categorySlug": "home",
+    "categoryName": "Home & Living",
+    "images": [
+      "https://images.unsplash.com/photo-1495474472287-4d71bcdd2085?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 85,
+    "isFeatured": false,
+    "tags": ["coffee", "ceramic", "pour-over", "kitchen"],
+    "createdAt": "2024-01-30T08:00:00Z"
+  },
+  {
+    "id": "prod-14",
+    "name": "Bamboo Desk Organizer",
+    "slug": "bamboo-desk-organizer",
+    "description": "Eco-friendly bamboo desk organizer with 5 compartments for pens, scissors, phones, and stationery. Smooth natural finish, sturdy construction. Keeps your workspace clean and productive. Sustainably sourced.",
+    "price": 85,
+    "currency": "GHS",
+    "stockQuantity": 55,
+    "categorySlug": "home",
+    "categoryName": "Home & Living",
+    "images": [
+      "https://images.unsplash.com/photo-1518455027359-f3f8164ba6bd?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.4,
+    "reviewCount": 143,
+    "isFeatured": false,
+    "tags": ["desk", "organizer", "bamboo", "office"],
+    "createdAt": "2024-02-12T08:00:00Z"
+  },
+  {
+    "id": "prod-15",
+    "name": "Scented Soy Candle Set",
+    "slug": "scented-soy-candle-set",
+    "description": "Set of 3 hand-poured 100% soy wax candles in premium glass vessels. Fragrances: Vanilla & Sandalwood, Lavender & Cedar, Citrus & Mint. 45-hour burn time each. Cotton wick, non-toxic, phthalate-free.",
+    "price": 145,
+    "currency": "GHS",
+    "stockQuantity": 70,
+    "categorySlug": "home",
+    "categoryName": "Home & Living",
+    "images": [
+      "https://images.unsplash.com/photo-1571781926291-c477ebfd024b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 211,
+    "isFeatured": false,
+    "tags": ["candle", "soy", "scented", "home-decor"],
+    "createdAt": "2024-02-25T08:00:00Z"
+  },
+  {
+    "id": "prod-16",
+    "name": "Premium Bed Linen Set",
+    "slug": "premium-bed-linen-set",
+    "description": "400-thread-count Egyptian cotton sateen bed linen set including duvet cover, 2 pillowcases, and flat sheet. Soft, breathable, and temperature-regulating. Machine washable. Available in Queen and King sizes.",
+    "price": 480,
+    "currency": "GHS",
+    "stockQuantity": 20,
+    "categorySlug": "home",
+    "categoryName": "Home & Living",
+    "images": [
+      "https://images.unsplash.com/photo-1522771739844-6a9f6d5f14af?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 76,
+    "isFeatured": false,
+    "tags": ["bedding", "linen", "cotton", "bedroom"],
+    "createdAt": "2024-03-08T08:00:00Z"
+  },
+  {
+    "id": "prod-17",
+    "name": "Vitamin C Brightening Serum",
+    "slug": "vitamin-c-brightening-serum",
+    "description": "15% L-Ascorbic Acid serum with hyaluronic acid and vitamin E. Visibly reduces dark spots, evens skin tone, and boosts collagen production. Dermatologist-tested, fragrance-free, suitable for all skin types. 30ml.",
+    "price": 95,
+    "currency": "GHS",
+    "stockQuantity": 90,
+    "categorySlug": "beauty",
+    "categoryName": "Beauty & Health",
+    "images": [
+      "https://images.unsplash.com/photo-1620916566398-39f1143ab7be?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 398,
+    "isFeatured": false,
+    "tags": ["serum", "vitamin-c", "skincare", "brightening"],
+    "createdAt": "2024-01-18T08:00:00Z"
+  },
+  {
+    "id": "prod-18",
+    "name": "Professional Hair Dryer",
+    "slug": "professional-hair-dryer",
+    "description": "Ionic 2400W professional hair dryer with 3 heat settings, 2 speed settings, cool shot button, concentrator nozzle, and diffuser. Tourmaline-coated grille reduces frizz and static. Folds for travel.",
+    "price": 210,
+    "currency": "GHS",
+    "stockQuantity": 35,
+    "categorySlug": "beauty",
+    "categoryName": "Beauty & Health",
+    "images": [
+      "https://images.unsplash.com/photo-1522338242992-e1a54906a8da?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.5,
+    "reviewCount": 162,
+    "isFeatured": false,
+    "tags": ["hair", "dryer", "ionic", "beauty"],
+    "createdAt": "2024-02-08T08:00:00Z"
+  },
+  {
+    "id": "prod-19",
+    "name": "Natural Beard Grooming Kit",
+    "slug": "natural-beard-grooming-kit",
+    "description": "Complete beard care set including beard oil (jojoba + argan), beard balm, boar bristle beard brush, stainless steel comb, and beard scissors. Packed in a handsome wooden box. Great gift for men.",
+    "price": 130,
+    "currency": "GHS",
+    "stockQuantity": 50,
+    "categorySlug": "beauty",
+    "categoryName": "Beauty & Health",
+    "images": [
+      "https://images.unsplash.com/photo-1621607512214-68297480165e?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.6,
+    "reviewCount": 88,
+    "isFeatured": false,
+    "tags": ["beard", "grooming", "men", "skincare"],
+    "createdAt": "2024-02-22T08:00:00Z"
+  },
+  {
+    "id": "prod-20",
+    "name": "Adjustable Dumbbell Set",
+    "slug": "adjustable-dumbbell-set",
+    "description": "Space-saving adjustable dumbbell set that replaces 15 pairs of dumbbells. Adjusts from 2kg to 24kg in 2kg increments per dumbbell. Durable contoured handle, secure locking system. Includes storage tray.",
+    "price": 890,
+    "currency": "GHS",
+    "stockQuantity": 18,
+    "categorySlug": "sports",
+    "categoryName": "Sports & Outdoors",
+    "images": [
+      "https://images.unsplash.com/photo-1526506118085-60ce8714f8c5?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.8,
+    "reviewCount": 124,
+    "isFeatured": true,
+    "tags": ["dumbbell", "fitness", "gym", "weights"],
+    "createdAt": "2024-01-22T08:00:00Z"
+  },
+  {
+    "id": "prod-21",
+    "name": "Yoga Mat Premium Non-Slip",
+    "slug": "yoga-mat-premium-non-slip",
+    "description": "6mm thick TPE eco-friendly yoga mat with alignment lines, double-sided non-slip texture, and moisture-resistant surface. Includes carry strap. 183cm x 61cm. Lightweight at 1.2kg. Odor-free.",
+    "price": 115,
+    "currency": "GHS",
+    "stockQuantity": 65,
+    "categorySlug": "sports",
+    "categoryName": "Sports & Outdoors",
+    "images": [
+      "https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.5,
+    "reviewCount": 287,
+    "isFeatured": false,
+    "tags": ["yoga", "mat", "fitness", "exercise"],
+    "createdAt": "2024-02-03T08:00:00Z"
+  },
+  {
+    "id": "prod-22",
+    "name": "Hiking Boots Waterproof",
+    "slug": "hiking-boots-waterproof",
+    "description": "Full-grain leather hiking boots with Gore-Tex waterproof membrane, Vibram outsole for superior grip, cushioned midsole, and reinforced toe cap. Ankle-supportive design for rugged terrain. Available in UK sizes 40-46.",
+    "price": 420,
+    "currency": "GHS",
+    "stockQuantity": 28,
+    "categorySlug": "sports",
+    "categoryName": "Sports & Outdoors",
+    "images": [
+      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 95,
+    "isFeatured": false,
+    "tags": ["hiking", "boots", "waterproof", "outdoor"],
+    "createdAt": "2024-03-12T08:00:00Z"
+  },
+  {
+    "id": "prod-23",
+    "name": "STEM Robot Building Kit",
+    "slug": "stem-robot-building-kit",
+    "description": "Educational robotics kit for ages 8+. Build 5 different robot models with 190+ components. Includes programmable microcontroller, sensors, motors, and step-by-step instruction booklet. No soldering required.",
+    "price": 240,
+    "currency": "GHS",
+    "stockQuantity": 30,
+    "categorySlug": "toys",
+    "categoryName": "Toys & Games",
+    "images": [
+      "https://images.unsplash.com/photo-1561144257-e32e8efc6c4f?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.9,
+    "reviewCount": 73,
+    "isFeatured": false,
+    "tags": ["STEM", "robot", "educational", "kids"],
+    "createdAt": "2024-01-28T08:00:00Z"
+  },
+  {
+    "id": "prod-24",
+    "name": "Strategy Board Game",
+    "slug": "strategy-board-game",
+    "description": "Award-winning strategy board game for 2-6 players, ages 10+. Build civilizations, trade resources, and outmaneuver opponents over 45-90 minute sessions. Premium wooden pieces, detailed rulebook, and replayable scenarios.",
+    "price": 160,
+    "currency": "GHS",
+    "stockQuantity": 42,
+    "categorySlug": "toys",
+    "categoryName": "Toys & Games",
+    "images": [
+      "https://images.unsplash.com/photo-1610890716171-6b1bb98ffd09?auto=format&fit=crop&w=1200&q=80"
+    ],
+    "rating": 4.7,
+    "reviewCount": 118,
+    "isFeatured": false,
+    "tags": ["board-game", "strategy", "family", "games"],
+    "createdAt": "2024-02-18T08:00:00Z"
+  }
+]

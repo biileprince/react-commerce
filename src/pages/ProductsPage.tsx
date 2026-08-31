@@ -19,7 +19,7 @@ import {
   DropdownMenuTrigger,
 } from '@/components/ui/dropdown-menu';
 import { ProductGrid } from '@/components/product/ProductGrid';
-import { PRODUCTS, searchProducts, getProductsByCategory } from '@/data/products';
+import { PRODUCTS, searchProducts, getProductsByCategory } from '@/lib/productHelpers';
 import { CATEGORIES } from '@/data/categories';
 import { useDebounce } from '@/hooks/useDebounce';
 import { SITE_NAME, ITEMS_PER_PAGE } from '@/lib/constants';

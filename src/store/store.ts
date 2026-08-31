@@ -1,8 +1,8 @@
 import { configureStore, combineReducers } from '@reduxjs/toolkit';
-import cartReducer from '@/features/cart/cartSlice';
-import authReducer from '@/features/auth/authSlice';
-import wishlistReducer from '@/features/wishlist/wishlistSlice';
-import uiReducer from '@/features/ui/uiSlice';
+import cartReducer from '@/store/slices/cart/cartSlice';
+import authReducer from '@/store/slices/auth/authSlice';
+import wishlistReducer from '@/store/slices/wishlist/wishlistSlice';
+import uiReducer from '@/store/slices/ui/uiSlice';
 
 // Load persisted state from localStorage
 function loadState() {

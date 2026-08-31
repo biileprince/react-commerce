@@ -10,9 +10,9 @@ import {
 } from '@/components/ui/sheet';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
-import { useAppDispatch, useAppSelector } from '@/app/hooks';
-import { selectIsAuthenticated, selectUser, logout } from '@/features/auth/authSlice';
-import { selectTheme, setTheme, selectMobileMenuOpen, closeMobileMenu, toggleMobileMenu } from '@/features/ui/uiSlice';
+import { useAppDispatch, useAppSelector } from '@/store/hooks';
+import { selectIsAuthenticated, selectUser, logout } from '@/store/slices/auth/authSlice';
+import { selectTheme, setTheme, selectMobileMenuOpen, closeMobileMenu, toggleMobileMenu } from '@/store/slices/ui/uiSlice';
 import { CATEGORIES } from '@/data/categories';
 import { MENU_ITEMS } from '@/lib/constants';
 import { toast } from 'sonner';

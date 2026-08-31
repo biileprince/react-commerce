@@ -15,11 +15,11 @@ import {
 } from '@/components/ui/dropdown-menu';
 import { Avatar, AvatarFallback } from '@/components/ui/avatar';
 import { Sheet, SheetContent, SheetTrigger } from '@/components/ui/sheet';
-import { useAppDispatch, useAppSelector } from '@/app/hooks';
-import { selectCartCount, toggleCart } from '@/features/cart/cartSlice';
-import { selectIsAuthenticated, selectUser, logout } from '@/features/auth/authSlice';
-import { selectTheme, setTheme, toggleMobileMenu } from '@/features/ui/uiSlice';
-import { selectWishlistCount } from '@/features/wishlist/wishlistSlice';
+import { useAppDispatch, useAppSelector } from '@/store/hooks';
+import { selectCartCount, toggleCart } from '@/store/slices/cart/cartSlice';
+import { selectIsAuthenticated, selectUser, logout } from '@/store/slices/auth/authSlice';
+import { selectTheme, setTheme, toggleMobileMenu } from '@/store/slices/ui/uiSlice';
+import { selectWishlistCount } from '@/store/slices/wishlist/wishlistSlice';
 import { MENU_ITEMS, SITE_NAME } from '@/lib/constants';
 import { MobileMenu } from './MobileMenu';
 import { toast } from 'sonner';

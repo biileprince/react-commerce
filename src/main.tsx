@@ -3,7 +3,7 @@ import { createRoot } from 'react-dom/client';
 import { Provider } from 'react-redux';
 import { Toaster } from 'sonner';
 import { TooltipProvider } from '@/components/ui/tooltip';
-import { store } from '@/app/store';
+import { store } from '@/store/store';
 import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import { AppRouter } from '@/router';
 import './index.css';

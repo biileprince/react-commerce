@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { CATEGORIES } from '@/data/categories';
-import { getProductsByCategory } from '@/data/products';
+import { getProductsByCategory } from '@/lib/productHelpers';
 
 export function CategoriesSection() {
   return (
