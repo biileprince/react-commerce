@@ -1,7 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { AuthForm } from '@/components/auth/AuthForm';
-import { useAppSelector } from '@/app/hooks';
-import { selectIsAuthenticated } from '@/features/auth/authSlice';
+import { useAppSelector } from '@/store/hooks';
+import { selectIsAuthenticated } from '@/store/slices/auth/authSlice';
 import { SITE_NAME } from '@/lib/constants';
 import { useEffect } from 'react';
 

@@ -2,14 +2,14 @@ import { Link, useNavigate } from 'react-router-dom';
 import { Minus, Plus, Trash2, ShoppingBag, ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
-import { useAppDispatch, useAppSelector } from '@/app/hooks';
+import { useAppDispatch, useAppSelector } from '@/store/hooks';
 import {
   selectCartItems,
   selectCartTotal,
   removeFromCart,
   updateQuantity,
   clearCart,
-} from '@/features/cart/cartSlice';
+} from '@/store/slices/cart/cartSlice';
 import { CURRENCY_SYMBOL, SHIPPING_FEE, FREE_SHIPPING_THRESHOLD, SITE_NAME } from '@/lib/constants';
 
 export function CartPage() {

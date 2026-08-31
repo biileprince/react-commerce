@@ -12,7 +12,7 @@ import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { ScrollArea } from '@/components/ui/scroll-area';
 import { Badge } from '@/components/ui/badge';
-import { useAppDispatch, useAppSelector } from '@/app/hooks';
+import { useAppDispatch, useAppSelector } from '@/store/hooks';
 import {
   selectCartItems,
   selectCartTotal,
@@ -22,7 +22,7 @@ import {
   removeFromCart,
   updateQuantity,
   clearCart,
-} from '@/features/cart/cartSlice';
+} from '@/store/slices/cart/cartSlice';
 import { CURRENCY_SYMBOL, SHIPPING_FEE, FREE_SHIPPING_THRESHOLD } from '@/lib/constants';
 
 export function CartSheet() {
